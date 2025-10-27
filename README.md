@@ -65,10 +65,16 @@ MONGO_URI=sua_string_de_conexao_mongodb
 ```
 
 
-4️⃣ Execute o servidor através do script 
+4️⃣ Execute o servidor através do script manualmente
 ```bash
-node Server.js
+node src/routes/Server.js
 ```
+ou com o  script automatico do package.json
+
+```bash
+[init:server]
+```
+
 
 Acesse em:
 👉 http://localhost:3000
