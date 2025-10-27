@@ -55,10 +55,17 @@ cd librarie-API
 npm install express mongoose nodemon dotenv
 ```
 
+3️⃣ Configure o ambiente
+
+Crie um arquivo .env na raiz:
+```bash
+PORT=3000
+MONGO_URI=sua_string_de_conexao_mongodb
+``
+
 4️⃣ Execute o servidor através do script 
 ```bash
 node Server.js
-```
 ```
 Acesse em:
 👉 http://localhost:3000
