@@ -53,10 +53,9 @@ npm install express mongoose nodemon dotenv
 ```
 4️⃣ Execute o servidor através do script 
 ```bash
-[init:server]
+npm run dev
 ```
 ou 
-
 ```bash
 nodemon Server.js
 ```
