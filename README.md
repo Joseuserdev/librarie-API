@@ -38,4 +38,38 @@ src/
  ├── db.config/
  ├── routes/
  └── Server.js
+```
+
+##🚀 Como Executar o Projeto
+1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/Joseuserdev/librarie-API.git
+cd librarie-API
+```
+2️⃣ Instale as dependências
+```bash
+npm install express mongoose nodemon dotenv
+```
+4️⃣ Execute o servidor através do script 
+```bash
+[init:server]
+```
+ou 
+
+```bash
+nodemon Server.js
+```
+Acesse em:
+👉 http://localhost:3000
+
+🧑‍💻 Autor
+José Gomes da Silva Neto
+
+📜 Licença
+Este projeto está sob a licença MIT
+ 
+
+
+
 
